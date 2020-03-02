@@ -4,4 +4,9 @@ subprojects {
   repositories {
     jcenter()
   }
+	jar {
+	    manifest {
+	        attributes 'Main-Class': 'hu.bme.mit.train.controller.TrainControllerImpl'
+	    }
+	}
 }
