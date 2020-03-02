@@ -6,7 +6,7 @@ subprojects {
   }
 	jar {
 	    manifest {
-	        attributes 'Main-Class': 'hu.bme.mit.train.controller.TrainControllerImpl'
+	        attributes 'Main-Class': 'hu.bme.mit.train.system.TrainSystem'
 	    }
 	}
 }
